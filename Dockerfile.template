@@ -11,4 +11,4 @@ RUN apk --update add curl tar && \
 
 EXPOSE 1313
 
-ENTRYPOINT ["./bin/hugo"]
+ENTRYPOINT ["/bin/hugo"]
